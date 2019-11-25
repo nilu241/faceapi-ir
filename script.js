@@ -1,4 +1,5 @@
 const imageUpload = document.getElementById('imageUpload')
+console.log('face recog example')
 
 Promise.all([
   faceapi.nets.faceRecognitionNet.loadFromUri('/models'),
